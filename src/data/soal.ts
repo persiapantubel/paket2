@@ -27,10 +27,10 @@ export const soalData: Soal[] = [
       "5. Hasil Akhir Kotak 5: Dari kotak 4, Segitiga Hitam berputar ke Kiri Atas dan warnanya terbalik menjadi Segitiga Putih. Lingkaran Hitam berputar ke Kanan Atas. Persegi Putih berputar ke Kanan Bawah. Bintang Hitam berputar ke Kiri Bawah."
     ],
     boxes: [
-      { center: { t: 'segi3', f: false }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
-      { center: { t: 'segi4', f: true }, tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: true }, br: { t: 'circle', f: false } },
-      { center: { t: 'segi5', f: false }, tl: { t: 'square', f: false }, tr: { t: 'star', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
-      { center: { t: 'segi6', f: true }, tl: { t: 'circle', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'star', f: true } },
+      { tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: false }, bl: { t: 'star', f: false }, br: { t: 'square', f: true } },
+      { tl: { t: 'star', f: true }, tr: { t: 'segi3', f: true }, bl: { t: 'square', f: true }, br: { t: 'circle', f: false } },
+      { tl: { t: 'square', f: false }, tr: { t: 'star', f: true }, bl: { t: 'circle', f: false }, br: { t: 'segi3', f: true } },
+      { tl: { t: 'circle', f: true }, tr: { t: 'square', f: false }, bl: { t: 'segi3', f: true }, br: { t: 'star', f: true } },
     ],
     options: [
       { label: 'A', center: { t: 'segi7', f: true }, tl: { t: 'segi3', f: true }, tr: { t: 'circle', f: true }, bl: { t: 'star', f: true }, br: { t: 'square', f: false } },
